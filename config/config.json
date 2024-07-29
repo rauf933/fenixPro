@@ -1,0 +1,36 @@
+{
+  "site": {
+    "title": "Fenix Pro",
+    "base_url": "/",
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/logo.svg",
+    "logo_width": "200",
+    "logo_height": "80",
+    "logo_text": "Bigspring Light"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Начать",
+    "link": "/contact"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "С нами управлять бизнесом проще.",
+    "copyright": " "
+  },
+
+  "metadata": {
+    "meta_author": "Themefisher",
+    "meta_image": "",
+    "meta_description": "A SAAS template for nextjs"
+  }
+}

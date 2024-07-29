@@ -1,0 +1,31 @@
+{
+  "main": [
+    {
+      "name": "Главная",
+      "url": "/"
+    },
+    {
+      "name": "Цены",
+      "url": "/pricing"
+    },
+    {
+      "name": "Контакт",
+      "url": "/contact"
+    }
+  ],
+  "footer": [
+    {
+      "name": "Компания",
+      "menu": [
+        {
+          "text": "Цены",
+          "url": "/pricing"
+        },
+        {
+          "text": "Начать",
+          "url": "/contact"
+        }
+      ]
+    }
+  ]
+}
