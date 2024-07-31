@@ -13,7 +13,7 @@ const Footer = () => {
     <footer className="section bg-theme-light pb-0">
       <div className="container">
         {/* footer menu */}
-        <div className="row justify-between">
+        <div className="row">
           {footer.map((col) => {
             return (
               <div className="mb-12 sm:col-6 lg:col-4" key={col.name}>
@@ -31,7 +31,7 @@ const Footer = () => {
             );
           })}
           {/* social icons */}
-          <div className="md-12 sm:col-6 lg:col-4">
+          <div className="md-12 sm:col-6 lg:col-5 flex flex-col items-center">
             <Link href="/" aria-label="Bigspring">
               <Image
                 src={config.site.logo}
