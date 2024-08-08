@@ -33,6 +33,7 @@ const Contact = ({ data }) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setFormData({name: '',tel:'',type:''});
     try {
       const response = await axios.get(`https://api.telegram.org/bot6407737642:AAG_Aa_eXtU8_fOhanGgnFR1-QwDFYhBmkM/sendMessage?parse_mode=HTML&chat_id=-1002188694607&text=Имя: ${formData.name};%0AТелефон: ${formData.tel};%0AТип: ${formData.type}`, formData);
       alert('Запрос отправлен')
